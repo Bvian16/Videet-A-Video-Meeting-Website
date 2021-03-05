@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videet: A new way to take meetings.</title>
+    <link rel="stylesheet" href="/public/css/stylehome.css">
+    <link rel = "icon" href = "/public/img/logo.png" type = "image/x-icon">
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="/home">
+            <div id="logo">
+                <img src="/public/img/logo.png" alt="">
+                <div id="logotxt">Videet</div>
+            </div>
+        </a>
+        <div id="navright">
+            <div id="navright1">
+                <div id="navright2">
+                    <div><%= email %></div>
+                    <a href="/logout">Logout</a>
+                </div>
+                <div id="navright3">
+                    <img src="<%=pic%>">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="left">
+            <div class="text">Welcome <%= name %>.</div>
+            <p>A video conferencing lets you instantly meet with anyone, without the need to travel.</p>
+            <div id="meeting">
+                <a id="btn" href="/room"><div>New meeting</div></a>
+                <input type="text" placeholder="Enter a link">
+                <span id="join_link">Join</span>
+            </div>
+        </div>
+        <div id="right">
+            <img src="/public/img/homepic.png" alt="">
+        </div>
+    </div>
+    <script src="/public/script/homescript.js"></script>
+</body>
+
+</html>

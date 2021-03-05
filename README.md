@@ -22,7 +22,7 @@ Video meeting website with live video and real-time chat menu.
 ## How to Use
 * First Download or Clone the Project on Your Local Machine.
 * Open Videet folder in VS Code, then open terminal and type "npm install" to download all dependencies.
-* Now type "pm start" in teminal to start the server
+* Now type "npm start" in teminal to start the server
 * Now open browser and type "http://localhost:5000/"
 
 ## Screenshots
